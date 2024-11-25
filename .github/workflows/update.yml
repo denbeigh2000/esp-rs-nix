@@ -1,0 +1,18 @@
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "actions/checkout@v4"
+      - id: "update"
+        name: "Run Update"
+        run: "./update/update.sh"
+      - name: "Create Pull Request"
+        uses: "peter-evans/create-pull-request@v7"
+        with:
+          author: "Denbeigh Bot <bot@denbeigh.cloud>"
+          commit-message: "esp-rs/rust-build -> ${{ steps.update.outputs.latest_release }}"
+          branch: "update/${{ steps.update.outputs.latest_release }}"
