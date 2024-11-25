@@ -1,0 +1,70 @@
+{
+  "aarch64-apple-darwin": {
+    "latest": {
+      "date": "v1.82.0.2",
+      "components": {
+        "rust": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-1.82.0.2-aarch64-apple-darwin.tar.xz",
+          "sha256": "sha256-eEVqh4atFBB5/GcF4DMhw+xhAqCg0ecPZJv9+YhV5MU="
+        },
+        "rust-src": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-src-1.82.0.2.tar.xz",
+          "sha256": "sha256-r8f06AI6+m0if7jTLudNYmyAUVwOCbxzBcfEF4T6Pbk="
+        }
+      }
+    }
+  },
+  "aarch64-unknown-linux-gnu": {
+    "latest": {
+      "date": "v1.82.0.2",
+      "components": {
+        "rust": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-1.82.0.2-aarch64-unknown-linux-gnu.tar.xz",
+          "sha256": "sha256-8IDocrVy5pvvuQ1+1ua9pZOap9N9OIdVrGK5u1p56Ow="
+        },
+        "rust-src": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-src-1.82.0.2.tar.xz",
+          "sha256": "sha256-r8f06AI6+m0if7jTLudNYmyAUVwOCbxzBcfEF4T6Pbk="
+        }
+      }
+    }
+  },
+  "x86_64-apple-darwin": {
+    "latest": {
+      "date": "v1.82.0.2",
+      "components": {
+        "rust": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-1.82.0.2-x86_64-apple-darwin.tar.xz",
+          "sha256": "sha256-MysgLz4RDeD0aWlT+czcyT1PZEOsbx/+HtGHzyQ3pms="
+        },
+        "rust-src": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-src-1.82.0.2.tar.xz",
+          "sha256": "sha256-r8f06AI6+m0if7jTLudNYmyAUVwOCbxzBcfEF4T6Pbk="
+        }
+      }
+    }
+  },
+  "x86_64-unknown-linux-gnu": {
+    "latest": {
+      "date": "v1.82.0.2",
+      "components": {
+        "rust": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-1.82.0.2-x86_64-unknown-linux-gnu.tar.xz",
+          "sha256": "sha256-ztKUqVfrKZB+Opj30e0lveIJj2SVfVYVNtcT49lDxmA="
+        },
+        "rust-src": {
+          "date": "v1.82.0.2",
+          "url": "https://github.com/esp-rs/rust-build/releases/download/v1.82.0.2/rust-src-1.82.0.2.tar.xz",
+          "sha256": "sha256-r8f06AI6+m0if7jTLudNYmyAUVwOCbxzBcfEF4T6Pbk="
+        }
+      }
+    }
+  }
+}
